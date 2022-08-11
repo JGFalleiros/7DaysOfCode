@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+nav {
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.options a {
+    margin-right: 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+#btn-cadastrar {
+    border: solid 1px #8E2424;
+    padding: 10px 18px;
+    background: #8E2424;
+    color: white;
+    border-radius: 8px;
+    margin-left: .5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 96px;
+}
+
+.about-us #about {
+    color: #8E2424;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.about-us h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 96px;
+}
+
+.about-us #about-text {
+    width: 791px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 107px;
+}
+
+.stats {
+    display: flex;
+    margin: 0 3rem 12.25rem;
+}
+
+.stats-text {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.stats h1 {
+    color: #8E2424;
+    margin-bottom: 1rem;
+    font-size: 60px;
+}
+
+.label {
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.stats-text {
+    font-weight: 300;
+}
+
+.open-jobs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-open {
+    color: #8E2424;
+    border: 1px;
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 30px;
+    background: rgba(142, 36, 36, 0.05);
+    margin-bottom: 1rem;
+}
+
+#text-jobs {
+    margin: 1rem 0 4rem;
+    font-weight: 300;
+}
