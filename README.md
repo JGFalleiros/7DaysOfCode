@@ -8,4 +8,4 @@
 <p>5º Dia - Desenvolvido a seção das vagas disponíveis</p>
 <p>6º Dia - Desenvolvido a seção de depoimentos</p>
 <p>7º Dia - Desenvolvido o footer da página</p>
-![alt text](site.png)
+![](site.png)
